@@ -1,0 +1,20 @@
+{
+  "name": "a3-learning-backend",
+  "version": "1.0.0",
+  "description": "A3 学习平台后端服务 — K-12 智能助学 API",
+  "main": "src/index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch src/index.cjs",
+    "start": "node src/index.cjs",
+    "db:migrate": "node src/scripts/run-migrations.cjs",
+    "db:seed": "node src/scripts/run-seed.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "openai": "^4.x",
+    "pg": "^8.21.0"
+  }
+}

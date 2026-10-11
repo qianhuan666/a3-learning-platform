@@ -1,0 +1,36 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Generated QA and handoff artifacts
+artifacts/
+tools/installers/
+ziyuan/
+*.log
+__pycache__/
+*.pyc
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.png
+qa-*.png
+dashboard*.png
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
